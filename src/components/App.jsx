@@ -46,7 +46,8 @@ export function App() {
     setInput(newInput);
     setPage(1);
   };
-  const loadMore = async () => {
+  
+  const loadMore = () => {
     setPage(prevPage => prevPage + 1);
   };
   if (status === 'idle') {
